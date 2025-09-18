@@ -47,7 +47,7 @@ function App() {
             <div className="flex items-center space-x-2">
               <Building2 className="h-8 w-8 text-blue-700" />
               <span className="text-xl font-bold text-gray-900">
-                PT Konstruksi Nusantara
+                PT Aman Abadi
               </span>
             </div>
 
@@ -154,6 +154,149 @@ function App() {
         </div>
       </section>
 
+      {/* Pengantar Direktur */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+              Kata Pengantar Direktur
+            </h2>
+            <div className="w-20 h-1 bg-orange-500 mx-auto"></div>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <div className="bg-gray-50 p-8 rounded-2xl shadow-lg">
+                <div className="text-4xl text-orange-500 mb-4">"</div>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6 italic">
+                  Perusahaaan Kami. PT. Aman Abadi adalah merupakan Perusahaan
+                  Swasta Nasional yang berdiri sejak tanggal 18 Oktober 2003 di
+                  Bontang kalimantan Timur dan bergerak di bidang Kontruksi Umum
+                  dan Supplier. Seperti Perusahaan Swasta Nasional lainnya, kami
+                  juga berkeinginan dapat ikut serta berperan dan mendukung
+                  Program Pembangunan Nasional yang digalakan Pemerintah
+                  Indonesia. di seluruh wilayah Indonesia, baik diperkotaan
+                  maupun di daerah-daerah tertinggal dengan seluruh keahlian dan
+                  kemampuan yang sudah kami miliki saat ini. Sehingga keberadaan
+                  kami bisa bermanfaat baik bagi perusahaan kami sendiri, maupun
+                  bagi bangsa dan masyarakat Indonesia secara keseluruhan.
+                  Adalah sebuah cita-cita dan harapan besar kami bisa menjadi
+                  sebuah perusahaan besar dan profesional yang selalu menjaga
+                  kualitas dan layalitas terhadap mitra-mitra usaha kami, dengan
+                  senantiasa berusaha memberikan pelayanan yang optimal dan
+                  terbaik, kepada mitra-mitra usaha kami. Profil Perusahaan ini,
+                  kami buat dengan maksud ingin memberikan gambaran akan biodata
+                  dan kredibilitas kami pada calon mitra-mitra usaha perusahaan
+                  kami (PT. Aman Abadi).
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6 italic">
+                  Kepercayaan yang Anda berikan kepada kami adalah amanah yang
+                  kami jaga dengan dedikasi penuh. Tim profesional kami siap
+                  mewujudkan visi konstruksi Anda menjadi kenyataan dengan
+                  standar kualitas terbaik dan inovasi berkelanjutan.
+                </p>
+                <div className="flex items-center space-x-4">
+                  <div>
+                    <h4 className="font-bold text-gray-900 text-lg">
+                      Zen Fanani
+                    </h4>
+                    <p className="text-orange-600 font-semibold">Direktur</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="order-1 lg:order-2 text-center lg:text-left">
+              <div className="relative inline-block">
+                <img
+                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Direktur PT Aman Abadi"
+                  className="w-80 h-96 object-cover rounded-2xl shadow-2xl mx-auto"
+                />
+                <div className="absolute -bottom-6 -right-6 bg-orange-500 text-white p-4 rounded-full shadow-lg">
+                  <Building2 className="h-8 w-8" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Visi & Misi */}
+      <section className="py-20 bg-gradient-to-br from-blue-700 to-blue-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+              Visi & Misi Perusahaan
+            </h2>
+            <div className="w-20 h-1 bg-orange-500 mx-auto mb-6"></div>
+            <p className="text-lg text-blue-100 max-w-2xl mx-auto">
+              Landasan filosofi yang menggerakkan setiap langkah kami dalam
+              membangun masa depan Indonesia
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Visi */}
+            <div className="bg-white rounded-2xl p-8 shadow-xl transform hover:scale-105 transition-all duration-300">
+              <div className="flex items-center mb-6">
+                <div className="bg-orange-100 rounded-full p-3 mr-4">
+                  <Target className="h-8 w-8 text-orange-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900">Visi Kami</h3>
+              </div>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                Mewujudkan dan menjadikan PT. Aman Abadi menjadi sebuah
+                Perusahaan Swasta Nasional yang profesional, handal, inovatif,
+                amanah dan terpercaya.
+              </p>
+            </div>
+
+            {/* Misi */}
+            <div className="bg-white rounded-2xl p-8 shadow-xl transform hover:scale-105 transition-all duration-300">
+              <div className="flex items-center mb-6">
+                <div className="bg-blue-100 rounded-full p-3 mr-4">
+                  <Award className="h-8 w-8 text-blue-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900">Misi Kami</h3>
+              </div>
+              <ul className="space-y-4 text-gray-700">
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                  <span>
+                    Mendukung program pemerintah, berkaitan dengan masalah
+                    Pembangunan Nasional dibidang infra struktur, kontruksi dan
+                    supplier serta Pembangunan Ekonomi Kerakyatan, dengan jalan
+                    menciptakan peluang-peluang bisnis yang inovatif dan
+                    produktif diberbagai bidang, sehingga diharapkan dapat
+                    menciptakan lapangan kerja baru bagi masyarakat sekitar dan
+                    secara tidak langsung ikut membantu program pemerintah yang
+                    berkaitan dengan masalah pengangguran.
+                  </span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                  <span>
+                    Menjaga hubungan kerja sama yang baik, jujur dan transparan
+                    dengan mitra-mitra bisnis, sehingga akan terbangun
+                    kepercayaan dan tercipta keharmonisan hubungan kerja yang
+                    baik dan berkelanjutan.
+                  </span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
+                  <span>
+                    Menjaga kualitas pekerjaan dan produk secara maksimal dan
+                    optimal dengan tingkat akurasi dan ketelitian serta
+                    tanggungjawab yang tinggi.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Tentang Kami */}
       <section id="tentang" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -167,7 +310,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                PT Konstruksi Nusantara
+                PT Aman Abadi
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
                 Didirikan pada tahun 2008, PT Konstruksi Nusantara telah menjadi
@@ -181,29 +324,6 @@ function App() {
                 klien menjadikan kami pilihan utama untuk berbagai kebutuhan
                 konstruksi Anda.
               </p>
-
-              <div className="grid sm:grid-cols-2 gap-6">
-                <div className="flex items-start space-x-3">
-                  <Award className="h-6 w-6 text-orange-500 mt-1" />
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Visi</h4>
-                    <p className="text-gray-600">
-                      Menjadi perusahaan konstruksi terpercaya yang membangun
-                      masa depan Indonesia
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <Target className="h-6 w-6 text-orange-500 mt-1" />
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Misi</h4>
-                    <p className="text-gray-600">
-                      Memberikan layanan konstruksi berkualitas tinggi dengan
-                      standar internasional
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
 
             <div className="space-y-6">
@@ -341,9 +461,8 @@ function App() {
           </h2>
           <p className="text-lg text-blue-100 mb-8 leading-relaxed">
             Kami selalu mencari talenta terbaik untuk bergabung dengan tim
-            profesional kami. Kembangkan karir Anda bersama PT Konstruksi
-            Nusantara dan jadilah bagian dari proyek-proyek pembangunan masa
-            depan Indonesia.
+            profesional kami. Kembangkan karir Anda bersama PT Aman Abadi dan
+            jadilah bagian dari proyek-proyek pembangunan masa depan Indonesia.
           </p>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSeT7ahuwfsEaonVaqrK819YQtcNlG6rEbjfE8Cv1CG-29HSDA/viewform?usp=header"
@@ -386,9 +505,9 @@ function App() {
                       Alamat Kantor
                     </h4>
                     <p className="text-gray-600">
-                      Jl. Imogiri Barat, Sewon
+                      Jl. Mulawarman No 14 RT 10 Bontang Baru
                       <br />
-                      Yogyakarta, Indonesia
+                      Kalimantan Timur, Indonesia
                     </p>
                   </div>
                 </div>
@@ -401,8 +520,7 @@ function App() {
                     <h4 className="font-semibold text-gray-900 mb-1">
                       Nomor Telepon
                     </h4>
-                    <p className="text-gray-600">+62 21 5555 0123</p>
-                    <p className="text-gray-600">+62 812 3456 7890</p>
+                    <p className="text-gray-600">0858 23791</p>
                   </div>
                 </div>
 
@@ -412,8 +530,7 @@ function App() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <p className="text-gray-600">rafi@gmail.com</p>
-                    <p className="text-gray-600">rafikun@gmail.com</p>
+                    <p className="text-gray-600">ptaman.abadi@yahoo.com</p>
                   </div>
                 </div>
               </div>
@@ -501,13 +618,10 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Building2 className="h-8 w-8 text-orange-500" />
-                <span className="text-xl font-bold">
-                  PT Konstruksi Nusantara
-                </span>
+                <span className="text-xl font-bold">PT Aman Abadi</span>
               </div>
               <p className="text-gray-400 leading-relaxed">
-                Membangun masa depan Indonesia dengan dedikasi, kualitas, dan
-                inovasi dalam setiap proyek konstruksi yang kami kerjakan.
+                General Contractor & Supplier
               </p>
             </div>
 
@@ -524,18 +638,16 @@ function App() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Kontak</h4>
               <div className="space-y-2 text-gray-400">
-                <p>Jl. Imogiri Barat, Sewon</p>
-                <p>Yogyakarta, Indonesia</p>
-                <p>+62 21 5555 0123</p>
-                <p>rafi@gmail.com</p>
+                <p>Jl. Mulawarman No 14 RT 10 Bontang Baru</p>
+                <p>Kalimantan Timur, Indonesia</p>
+                <p>0858 23791</p>
+                <p>ptaman.abadi@yahoo.com</p>
               </div>
             </div>
           </div>
 
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>
-              &copy; 2024 PT Konstruksi Nusantara. Semua hak cipta dilindungi.
-            </p>
+            <p>&copy; 2024 PT Aman Abadi. Semua hak cipta dilindungi.</p>
           </div>
         </div>
       </footer>
