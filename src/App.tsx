@@ -13,6 +13,8 @@ import {
   Award,
   Target,
 } from "lucide-react";
+import Direktur from "./assets/direktur.png";
+import Logo from "./assets/logo.png";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,11 +46,20 @@ function App() {
       <header className="bg-white shadow-lg fixed w-full z-50 top-0">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2">
-              <Building2 className="h-8 w-8 text-blue-700" />
-              <span className="text-xl font-bold text-gray-900">
-                PT Aman Abadi
-              </span>
+            <div className="flex items-center space-x-3">
+              <img
+                src={Logo}
+                alt="PT Aman Abadi Logo"
+                className="h-10 w-10 rounded"
+              />
+              <div className="flex flex-col">
+                <span className="text-lg font-bold text-blue-700">
+                  PT. AMAN ABADI
+                </span>
+                <span className="text-xs font-semibold text-red-600 -mt-1">
+                  GENERAL CONTRACTOR & SUPPLIER
+                </span>
+              </div>
             </div>
 
             {/* Desktop Menu */}
@@ -136,7 +147,7 @@ function App() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/162568/architecture-building-joy-business-162568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
           }}
         ></div>
         <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl">
@@ -209,7 +220,7 @@ function App() {
             <div className="order-1 lg:order-2 text-center lg:text-left">
               <div className="relative inline-block">
                 <img
-                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src={Direktur}
                   alt="Direktur PT Aman Abadi"
                   className="w-80 h-96 object-cover rounded-2xl shadow-2xl mx-auto"
                 />
@@ -616,13 +627,21 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <Building2 className="h-8 w-8 text-orange-500" />
-                <span className="text-xl font-bold">PT Aman Abadi</span>
+              <div className="flex items-center space-x-3 mb-4">
+                <img
+                  src={Logo}
+                  alt="PT Aman Abadi Logo"
+                  className="h-10 w-10 rounded"
+                />
+                <div className="flex flex-col">
+                  <span className="text-lg font-bold text-white">
+                    PT. AMAN ABADI
+                  </span>
+                  <span className="text-sm text-gray-300">
+                    GENERAL CONTRACTOR & SUPPLIER
+                  </span>
+                </div>
               </div>
-              <p className="text-gray-400 leading-relaxed">
-                General Contractor & Supplier
-              </p>
             </div>
 
             <div>
