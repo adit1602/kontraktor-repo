@@ -324,7 +324,7 @@ function App() {
                 PT Aman Abadi
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Didirikan pada tahun 2008, PT Konstruksi Nusantara telah menjadi
+                Didirikan pada tahun 2003, PT Konstruksi Nusantara telah menjadi
                 salah satu perusahaan kontraktor terdepan di Indonesia. Dengan
                 pengalaman lebih dari 15 tahun, kami telah menyelesaikan ratusan
                 proyek konstruksi dari berbagai skala, mulai dari bangunan
