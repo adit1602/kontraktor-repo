@@ -159,9 +159,11 @@ function App() {
             tahun dalam membangun infrastruktur berkualitas tinggi untuk masa
             depan Indonesia yang lebih baik.
           </p>
-          <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
-            Konsultasi Gratis
-          </button>
+          <a href="https://wa.me/6282151271494">
+            <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+              Konsultasi Gratis
+            </button>
+          </a>
         </div>
       </section>
 
