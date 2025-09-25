@@ -159,11 +159,6 @@ function App() {
             tahun dalam membangun infrastruktur berkualitas tinggi untuk masa
             depan Indonesia yang lebih baik.
           </p>
-          <a href="https://wa.me/6282151271494">
-            <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
-              Konsultasi Gratis
-            </button>
-          </a>
         </div>
       </section>
 
@@ -661,7 +656,7 @@ function App() {
               <div className="space-y-2 text-gray-400">
                 <p>Jl. Mulawarman No 14 RT 10 Bontang Baru</p>
                 <p>Kalimantan Timur, Indonesia</p>
-                <p>0858 23791</p>
+                <p>0548 23791</p>
                 <p>ptaman.abadi@yahoo.com</p>
               </div>
             </div>
