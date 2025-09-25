@@ -528,7 +528,7 @@ function App() {
                     <h4 className="font-semibold text-gray-900 mb-1">
                       Nomor Telepon
                     </h4>
-                    <p className="text-gray-600">0858 23791</p>
+                    <p className="text-gray-600">0548 23791</p>
                   </div>
                 </div>
 
